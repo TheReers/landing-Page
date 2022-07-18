@@ -14,7 +14,13 @@
 
 /* Your own custom utilities */
 @layer base {
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
   html {
-    font-family: "Gilroy";
+    font-family: 'Gilroy';
   }
 }

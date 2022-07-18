@@ -3,7 +3,7 @@ import TestimonialCard from '../components/TestimonialCard';
 import { Wrapper } from './WhatIsReers';
 
 const Testimonials = () => (
-  <Wrapper className="text-white w-[77.7778%] mx-auto mt-[16.5rem] hero:mt-[113px]">
+  <Wrapper className="text-white w-[77.7778%] mx-auto">
     <div className="border-t-4 border-c-green border-solid max-w-[220px] hero:max-w-[113px] hero:border-t-2" />
     <h2 className="text-[70px] hero:text-[36px] font-bold leading-[87px] hero:leading-[45px] mt-[36px] hero:mt-5 mb-9 max-w-[478px] hero:max-w-[240px]">
       Testimonials

@@ -5,8 +5,16 @@ import WebFont from 'webfontloader';
 import App from './App';
 
 WebFont.load({
-  google: {
-    families: ['Poppins', 'Gilroy:500,700,400,600'],
+  custom: {
+    families: ['Gilroy:500,700,400,600,300'],
+    urls: [
+      'assets/fonts/Gilroy-Regular.otf',
+      'assets/fonts/Gilroy-Medium.otf',
+      'assets/fonts/Gilroy-Semibold.otf',
+      'assets/fonts/Gilroy-Thin.otf',
+      'assets/fonts/Gilroy-Bold.otf',
+      'assets/fonts/Gilroy-Extrabold.otf',
+    ],
   },
 });
 

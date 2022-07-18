@@ -4,13 +4,17 @@ import { ReactComponent as Arrow } from '../assets/icons/arrow.svg';
 
 interface BtnProps {
   btnContent: string;
+  fontSize?: string;
+  lineHeight?: string;
 }
 
-const WaitlistBtn = ({ btnContent }: BtnProps) => (
-  <div className="text-[30px] leading-[37px] flex flex-row  w-[14.1rem] paths:w-[136px] cursor-pointer border-c-blue hover:border-c-green transition ease-in-out delay-100">
+const defaultProps = { fontSize: '30px', lineHeight: '37px' };
+
+const WaitlistBtn = ({ btnContent, fontSize, lineHeight }: BtnProps) => (
+  <div className="text-[30px] leading-[37px] flex flex-row  w-[19rem] paths:w-[136px] cursor-pointer border-c-blue hover:border-c-green transition ease-in-out delay-100">
     <p
       style={{ borderColor: 'inherit' }}
-      className="py-5 paths:py-[14px] text-[25px] paths:text-[14px] paths:leading-[17px] px-[1.6rem] paths:px-[12px] border-customBtn border-solid font-medium"
+      className={`py-5 paths:py-[14px] text-[${fontSize}] leading-[${lineHeight}] paths:text-[14px] paths:leading-[17px] px-[1.6rem] paths:px-[12px] border-customBtn border-solid font-medium`}
     >
       {btnContent}
     </p>
@@ -20,5 +24,7 @@ const WaitlistBtn = ({ btnContent }: BtnProps) => (
     />
   </div>
 );
+
+WaitlistBtn.defaultProps = defaultProps;
 
 export default WaitlistBtn;

@@ -11,7 +11,7 @@ const TrackWrapper = styled.div`
 `;
 
 const OurTrack = () => (
-  <TrackWrapper className="text-white w-[77.7778%] mx-auto hero:mt-16">
+  <TrackWrapper className="text-white w-[77.7778%] mx-auto mt-[14.7rem] hero:mt-16">
     <div className="border-t-4 border-c-green border-solid max-w-[220px] hero:max-w-[113px] hero:border-t-2" />
     <h2 className="text-[70px] hero:text-[36px] font-bold leading-[87px] hero:leading-[45px] mt-[37px] hero:mt-5 mb-[107px] hero:mb-11">
       Our Tracks

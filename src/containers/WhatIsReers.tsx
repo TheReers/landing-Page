@@ -14,7 +14,7 @@ const WhatIsReers = () => (
     <h2 className="text-[70px] hero:text-[36px] font-bold leading-[87px] hero:leading-[45px] mt-[36px] hero:mt-5 mb-8 hero:mb-4 max-w-[478px] hero:max-w-[246px]">
       What is <span className="text-c-green">Reers?</span>
     </h2>
-    <p className="text-[22px] hero:text-[12px] leading-9 hero:leading-5 font-normal">
+    <p className="text-[21px] hero:text-[12px] leading-[35.64px] hero:leading-5 font-normal">
       Reers is an online learning environment for individuals seeking to gain
       technical skills in Artificial Intelligence, Blockchain Development, Big
       Data and Software Engineering. We believe that people have various means

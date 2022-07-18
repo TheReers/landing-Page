@@ -30,6 +30,7 @@ module.exports = {
       2,
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
+    'react/prop-types': 0,
     'prettier/prettier': [
       'error',
       prettierOptions,

@@ -46,25 +46,27 @@ const App = () => {
   }, [updateDimensions]);
 
   return (
-    <div className="xxl:bg-cover h-max bg-dark bg-blend-color-dodge">
+    <div className="xxl:bg-cover h-max bg-dark bg-hero-pattern bg-blend-color-dodge">
       <GlobalStyles />
       <div className="h-full bg-transparent max-w-[1440px] m-auto">
-        <div className="bg-hero-pattern pb-[14.5rem]">
-          <Navbar open={open} setOpen={setOpen} />
-          <MobileNav open={open} />
-          <Ellipse className="absolute top-[350px] hero:top-[115px] left-[14.6%] hero:left-[6.77%]" />
-          <Ellipse2 className="absolute top-[240px] hero:top-[65px] right-[16.97%] hero:right-[13.77%]" />
-          <Ellipse className="absolute top-[600px] hero:top-[255px] right-[35.35%] hero:right-[42%]" />
-          <Hero />
-        </div>
-        <OurTrack />
-        <Paths />
-        <WhatIsReers />
-        <Comparison />
-        <div className="bg-footer-pattern">
+        <Navbar open={open} setOpen={setOpen} />
+        <MobileNav open={open} />
+        <Ellipse className="absolute top-[350px] hero:top-[115px] left-[14.6%] hero:left-[6.77%]" />
+        <Ellipse2 className="absolute top-[240px] hero:top-[65px] right-[16.97%] hero:right-[13.77%]" />
+        <Ellipse className="absolute top-[600px] hero:top-[255px] right-[35.35%] hero:right-[42%]" />
+        <Hero />
+        <div className="bg-dark">
+          <OurTrack />
+          <Paths />
+          <WhatIsReers />
+          <Comparison />
           <Talent />
-          <Testimonials />
-          <Footer />
+        </div>
+        <div className="bg-dark bg-footer-pattern bg-blend-color-dodge">
+          <div className="bg-transparent">
+            <Testimonials />
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
